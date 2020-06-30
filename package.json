@@ -1,0 +1,29 @@
+{
+  "name": "node-js-upload-image-to-mongo",
+  "version": "1.0.0",
+  "description": "An Application to upload image to Mongo DB using Node JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nitishsingh2910/Node-JS-Upload-Image-to-Mongo.git"
+  },
+  "keywords": [
+    "image",
+    "mongo",
+    "nodejs"
+  ],
+  "author": "Nitish Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nitishsingh2910/Node-JS-Upload-Image-to-Mongo/issues"
+  },
+  "homepage": "https://github.com/nitishsingh2910/Node-JS-Upload-Image-to-Mongo#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "multer": "^1.4.2",
+    "multer-gridfs-storage": "^4.2.0"
+  }
+}
