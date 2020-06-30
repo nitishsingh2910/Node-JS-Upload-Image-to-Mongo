@@ -6,7 +6,7 @@ const uploadController = require("../controllers/upload");
 let routes = app => {
   router.get("/", homeController.getHome);
 
-  router.post("/upload", uploadController.uploadFile);
+  router.post("/upload", uploadController.uploadFiles);
 
   return app.use("/", router);
 };

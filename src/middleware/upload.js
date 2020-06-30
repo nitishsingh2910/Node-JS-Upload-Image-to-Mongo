@@ -20,6 +20,8 @@ var storage = new GridFsStorage({
     }
   });
 
-var uploadFile = multer({ storage: storage }).single("file");
-var uploadFilesMiddleware = util.promisify(uploadFile);
+// var uploadFile = multer({ storage: storage }).single("file");
+var uploadFiles = multer({ storage: storage }).array("multi-files", 5);
+
+var uploadFilesMiddleware = util.promisify(uploadFiles);
 module.exports = uploadFilesMiddleware;
