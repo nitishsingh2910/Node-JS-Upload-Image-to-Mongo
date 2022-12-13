@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/nitishsingh2910/Node-JS-Upload-Image-to-Mongo#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "multer": "^1.4.2",
     "multer-gridfs-storage": "^4.2.0"
   }
